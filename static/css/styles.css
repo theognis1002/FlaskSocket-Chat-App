@@ -1,0 +1,39 @@
+body {
+    background: #ccc;
+}
+
+.row {
+    width: 100%;
+}
+
+.chatbox_title {
+    color: gray;
+}
+.chatbox {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#messages {
+    padding: 10px;
+    height: 500px;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+#message_input_form {
+    margin-top: 3px;
+    width: 100%;
+    float: right;
+}
+
+#message_input_form .form-control {
+    width: 95%;
+    max-width: 440px;
+}
+
+#message_input_form button {
+    float: right;
+}

@@ -1,0 +1,20 @@
+{% extends "bootstrap/base.html" %}
+{% block title %} Chat App {% endblock %}
+{% block content %}
+<h3 class="chatbox_title">Chat App</h3>
+<div class="chatbox">
+    <form action="/chat">
+        <div class="form-group">
+            <label for="username">Email address</label>
+            <input type="text" id="username" name="username" class="form-control" aria-describedby="emailHelp" placeholder="Enter username">
+        </div>
+        <div class="form-group">
+            <label for="username">Room ID#</label>
+            <input type="text" id="room" name="room" class="form-control" aria-describedby="emailHelp" placeholder="Enter Room ID#">
+        </div>
+        <button class="btn btn-sm btn-primary" type="submit">Submit</button>
+    </form>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+{% endblock %}
